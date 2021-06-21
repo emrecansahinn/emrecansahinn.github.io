@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Hestia Güvenlik Duvarı</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Gp - v4.3.0
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+      <h1 class="logo me-auto me-lg-0"><a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo2.png" alt="" class="img-fluid"></a></h1>
+      
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Anasayfa</a></li>
+          <li><a class="nav-link scrollto" href="#about">Hakkında</a></li>
+          <li><a class="nav-link scrollto" href="#services">Özellikler</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Galeri</a></li>
+          <li><a class="nav-link scrollto" href="#team">Proje Takımı</a></li>          
+          <li><a class="nav-link scrollto" href="#contact">İletişim</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->    
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Hestia Güvenlik Duvarı</h1>
+          <h2><i>Hestia</i> küçük ve ev ofis işletmeleri için geliştirilmiş Durum Denetlemeli Güvenlik Duvarıdır.</h2>
+        </div>
+      </div>
+
+      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">               
+        
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box"><a href="https://github.com/ramazantokay/StatefulFirewallProject">
+            <i class="bi bi-github"></i>
+            <h3>GitHub</a></h3></a>
+          </div>
+        </div>       
+        
+      </div>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100" style="width: 100%;">
+            <h3>Hestia Hakkında</h3>
+            <p class="fst-italic">
+              Hestia Güvenlik Duvarı tarafından sağlanan ana özellik, açık portları ve bu portlar üzerinden trafik akışını izlemek, kayıt tutmak ve bağlantı akışına uygun olan paketlerin aktarılmasına izin verip, bağlantı akışına uygun olmayan paketleri filtreleyerek olası tehditleri engellemektir. Ayrıca kullanımdaki mevcut portları dinamik olarak izleyebilecek ve listeleyebilecek, bağlantı noktalarını ve trafiği dinamik olarak analiz edecek ve kullanıcıların istenmeyen bağlantı noktalarını kapatmasına ve engellemesine izin verecektir.
+            </p>
+            <h2>Hestia ne yapabiliyor?</h2>
+            <ul>
+              <li><i class="ri-check-double-line"></i><em>Seçilen ağ arabirimi (Network Interface Card) üzerindeki canlı trafiği yakalama</em><br><small>Hestia Güvenlik Duvarı seçilen ağ arabirimi (Network Interface Card) üzerindeki canlı trafiği yakalayabilmekte ve yakalanan paket hakkında paket uzunluğu, varış zamanı, pakette hangi katmanların yer aldığı, kaynak ve hedef MAC adresleri, kaynak ve hedef IPv4 adresleri, kaynak ve hedef portları ve protokol türü gibi bilgiler verebilmektedir.</small></li>          
+              <li><i class="ri-check-double-line"></i><em>Yakalanan paketleri PCAP dosyasına yazma</em><br><small>Hestia Güvenlik Duvarı, paketleri yakalarken, yakalanan tüm paketleri kaydedebilmekte ve bunları bir PCAP dosyasına yazabilmektedir. Çıktı PCAP dosyası, Wireshark gibi diğer herhangi bir PCAP okuyucu yazılımında da görüntülenebilir.</small></li>
+              <li><i class="ri-check-double-line"></i><em>PCAP dosyası okuma</em><br><small>Hestia Güvenlik Duvarı, içinde ne tür paketler olursa olsun herhangi bir PCAP dosyasını okuyabilmektedir. Bu PCAP dosya okuyucu aracıyla, PCAP dosyasındaki herhangi bir paket ayrıntılı bir şekilde terminalde görüntülenebilir.</small></li>
+              <li><i class="ri-check-double-line"></i><em>Statik firewall kurallarına göre paket filtreleme yapma</em><br><small> Durum denetlemeli olarak çalışma prensibinin yanı sıra kullanıcılar tarafından belirlenen geleneksel statik güvenlik duvarı kuralları baz alınarak da filtreleme yapılabilmektedir. Kullanıcı tarafından belirlenen hedef IP adresi, kaynak IP adresi, hedef ve kaynak port numaraları, protokol tipi gibi bilgiler doğrultusunda filtreleme yapılabilmektedir.</small></li>
+              <li><i class="ri-check-double-line"></i><em>Taşınan paketlere NAT uygulama</em><br><small>Yerel ağ tarafından alınan ve geniş ağ tarafına iletilecek olan paketlere NAT uygulanarak, yerel ağ IP adresleri kayıt altına alınarak, ilgili paketlere genel (public) IP adresleri atanır ve atanan IP ile yerel ağ IP eşleşmeleri dinamik bir NAT tablosunda tutulur. Geniş ağ tarafından gelen ve yerel ağa iletilmesi gereken paketlerin hedef IP adresleri, NAT tablosu üzerindeki eşleşmeler üzerinde tarama yapılarak, tekrar eski (yerel ağ) IP adresleri paketlere işlenir ve çift yönlü paket iletimi bu şekilde tamamlanmış olur.</small></li>
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="fade-up">     
+        <div class="section-title">
+          <h2></h2>
+          <p>Projede Kullanılan Teknolojiler</p>
+        </div>
+      </div>
+      <div class="container" data-aos="zoom-in">
+        <div class="clients-slider swiper-container">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/pcap++.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/dpdk.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/nodejs.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/html.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/c++.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/js.png" class="img-fluid" alt=""></div>                
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section><!-- End Clients Section -->
+
+    
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2></h2>
+          <p>ÖZELLİKLER</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-box-arrow-right"></i></div>
+              <h4><a href="">Durum Denetleme</a></h4>
+              <p>Yerel ağ ve geniş ağ (Internet) arasındaki bağlantıları dinamik bir şekilde takip edip, kayıt tutar.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-funnel"></i></div>
+              <h4><a href="">Statik Filtreleme</a></h4>
+              <p>Durum Denetleme özelliğine ek olarak statik kurallar etrafında paket filtreleme yapabilir.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-globe"></i></div>
+              <h4><a href="">NAT</a></h4>
+              <p>Yerel ağ tarafından geniş ağ tarafına (Internet) iletilen paketlerde IP değişikliği yaparak, yerel ağdaki cihazların gizliliğini artırır.</p>
+            </div>
+          </div>          
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-file"></i></i></div>
+              <h4><a href="">PCAP dosyası yazma ve okuma</a></h4>
+              <p>Yakalanan paketleri bir PCAP dosyasına yazabilir. Hali hazırda var olan PCAP dosyalarını okuyabilir.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-window"></i></div>
+              <h4><a href="">	
+                Kullanıcı Arayüzü</a></h4>
+              <p>Kullanımı kolaylaştırmak için basit bir web arayüzü sunar.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2></h2>
+          <p>GALERİ</p>
+          <span>Terminal ve WEB Arayüzünden görüntüler</span>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">HEPSİ</li>
+              <li data-filter=".filter-app">TERMİNAL</li>              
+              <li data-filter=".filter-web">WEB</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Firewall1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Terminal Arayüzü</h4>
+                <p>Uygulama</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Firewall1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Yakalanmış Ağ Paketi Örneği"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Web1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>WEB Arayüzü</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Giriş Sayfası"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Firewall2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Terminal Arayüzü</h4>
+                <p>Uygulama</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Firewall2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Web2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>WEB Arayüzü</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Anasayfa"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>          
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Firewall5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Terminal Arayüzü</h4>
+                <p>Uygulama</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Firewall5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Web3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>WEB Arayüzü</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Paket Yakalama Sayfası"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Firewall9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Terminal Arayüzü</h4>
+                <p>Uygulama</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Firewall9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Web6.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>WEB Arayüzü</h4>
+                <p>WEB</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web6.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kurallar Sayfası"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+       
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2></h2>
+          <p>Proje Takımı</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/photo-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://github.com/emrecansahinn"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/emre-can-%C5%9Fahin/"><i class="bi bi-linkedin"></i></a>
+                  
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Emre Can Şahin</h4>
+                <span>emre.sahin_01@metu.edu.tr</span>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/firat.jfif" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://github.com/SonmezFirat"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/sonmezfiratt"><i class="bi bi-linkedin"></i></a>
+                  
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Fırat Sönmez</h4>
+                <span>sonmez.firat@metu.edu.tr</span>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/photo-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://github.com/AlpinYildirim"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/alpin-y-993207215"><i class="bi bi-linkedin"></i></a>
+                  
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Mehmet Alpin Yıldırım</h4>
+                <span>alpin.yildirim@metu.edu.tr</span>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/team/photo-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://github.com/ramazantokay"><i class="bi bi-github"></i></a>                  
+                  <a href="https://www.linkedin.com/in/ramazantokay/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Ramazan Tokay</h4>
+                <span>ramazan.tokay@metu.edu.tr</span>                
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2></h2>
+          <p>İLETİŞİM</p>
+        </div>
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8533.459581922762!2d32.768695516033574!3d39.89848404967291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8820e0b1e0053468!2zT2R0w7wgQmlsZ2lzYXlhciBWZSDDlsSfcmV0aW0gVGVrbm9sb2ppbGVyaSBFxJ9pdGltaSBCw7Zsw7xtw7w!5e0!3m2!1sen!2str!4v1624214910454!5m2!1sen!2str" frameborder="0" allowfullscreen></iframe>
+          
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Konum:</h4>
+                <p>Orta Doğu Teknik Üniversitesi,        
+                  Dumlupınar Bulvarı No:1, 06800,                  
+                  Ankara TÜRKİYE</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>statefulfw@gmail.com</p>
+              </div>             
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="İSİM" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="EMAIL" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="KONU" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="MESAJ" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">GÖNDER</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
